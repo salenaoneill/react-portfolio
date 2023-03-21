@@ -9,10 +9,13 @@ export default function Portfolio({ allProjects }) {
       <h1>My Projects</h1>
       <ul className="list-group">
         {/* Here we use the map method to iterate through each user and return a new array of list items for each user */}
-        {allProjects.map((allProjects) => (
-          <li className="list-group-item" key={allProjects.id}>
-            {`${allProjects.name} ${allProjects.image} ${allProjects.deployedLink} ${allProjects.gitHubLink}`}
-          </li>
+        {allProjects.map((project) => (
+          <ul className="list-group-item" key={project.id}>
+            <li>{`${project.name}`}</li>
+            <li>{`${project.image}`}</li>
+            <li><a href="Deployed Link">{`${project.deployedLink}`}</a></li>
+            <li><a href="GitHub Link">{`${project.GitHubLink}`}</a></li>
+          </ul>
         ))}
       </ul>
     </div>
