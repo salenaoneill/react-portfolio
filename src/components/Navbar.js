@@ -1,5 +1,23 @@
 import React, { useState } from 'react';
 
+const styles = {
+  card: {
+    margin: 20,
+    background: '#e8eaf6',
+  },
+  heading: {
+    background: '#9a74db',
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: '1.2rem',
+    color: 'white',
+    padding: '0 20px',
+  },
+  hover: {
+    backgroundColor: '#FFFF00'
+  }
+};
+
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">

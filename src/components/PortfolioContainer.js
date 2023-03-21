@@ -1,5 +1,8 @@
 //depdendencies
 import React, { useState } from 'react';
+import allProjects from '../allProjects';
+import Footer from './Footer';
+import Header from './Header';
 import Navbar from './Navbar';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
@@ -19,7 +22,8 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio allProjects={allProjects}/>;
+      
     }
     if (currentPage === 'Resume') {
         return <Resume />;
@@ -30,9 +34,11 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <Header/>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* call render page */}
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
