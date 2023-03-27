@@ -1,6 +1,27 @@
 import React, { useRef } from 'react';
 import emailjs from "@emailjs/browser";
 
+const styles = {
+    card: {
+      margin: 0,
+      background: '#e8eaf6',
+      align: 'center',
+      display: 'block',
+    },
+    heading: {
+      background: '#3f51b5',
+      minHeight: 50,
+      lineHeight: 3.5,
+      fontSize: '1.2rem',
+      color: 'white',
+      padding: '0 20px',
+    },
+    content: {
+      padding: 20,
+      listStyleType: 'none',
+    },
+  };
+
 const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
@@ -26,23 +47,34 @@ const Contact = () => {
     return (
         <form onSubmit={sendEmail}>
                 <h2>Contact Me!</h2>
-                <div>
-                    <label>Name:</label>
-                    <textarea
-                        type="text"
-                        className="Name"
-                        required>
-                    </textarea>
-                    <label>Email Address:</label>
-                    <textarea
-                        type="text"
-                        className="EmailAddress"
-                        required>
-                    </textarea>
-                    <label>Message:</label>
-                    <textarea type="text" className="message" required></textarea>
-                    <button type="submit">Submit</button>
-                </div>
+                <ul style={styles.content}>
+                    <li>
+                        <label style={styles.heading}>Name:</label>
+                            <textarea
+                                style={styles.card}
+                                type="text"
+                                className="Name"
+                                required>
+                            </textarea>
+                    </li>
+                    <li>
+                        <label style={styles.heading}>Email Address:</label>
+                        <textarea
+                            style={styles.card}
+                            type="text"
+                            className="EmailAddress"
+                            required>
+                        </textarea>
+                    </li>
+                    <li>
+                        <label style={styles.heading}>Message:</label>
+                        <textarea style={styles.card} type="text" className="message" required></textarea>
+                    </li>
+                    <li>
+                        <button style={styles.card}type="submit">Submit</button>
+                    </li>
+                    
+                </ul>
         </form>
     )
 }
