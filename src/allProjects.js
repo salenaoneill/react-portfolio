@@ -4,6 +4,7 @@ import codeQuiz from './/images/CodeQuiz.png';
 import weatherDashboard from './/images/weather-dashboard.png';
 import workDayScheduler from './/images/work-day-scheduler.png';
 import noteTaker from './/images/Note-Taker.png';
+import houndr from './/images/houndr.png'
 
 const allProjects = [
     {
@@ -47,6 +48,13 @@ const allProjects = [
         image: noteTaker,
         deployedLink: 'https://notestaker.herokuapp.com/',
         gitHubLink: 'https://github.com/salenaoneill/note-taker'
+    },
+    {
+        id: 7,
+        name: 'Houndr',
+        image: houndr,
+        deployedLink: 'https://houndr.herokuapp.com/',
+        gitHubLink: 'https://github.com/llangerud/Houndr'
     }
 ];
 

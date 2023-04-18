@@ -7,7 +7,6 @@ const styles = {
         color: 'white',
         textAlign: 'center',
         fontSize: '1.6rem',
-     
       }
 }
 
