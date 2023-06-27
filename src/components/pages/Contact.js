@@ -71,7 +71,7 @@ const Contact = () => {
                         <textarea style={styles.card} type="text" className="message" required></textarea>
                     </li>
                     <li>
-                        <button style={styles.card}type="submit">Submit</button>
+                        <button style={styles.card}type="submit" value="Send">Submit</button>
                     </li>
                     
                 </ul>
