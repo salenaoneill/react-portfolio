@@ -14,13 +14,13 @@ function AboutMe() {
     return (
         <div>
             <img src={ProfilePic} style={styles.img}></img>
-            <p>
+            <h3>
             I am new to the tech industry, but confident in my ability to succeed. I have
             always been hardworking and driven in any job setting, and throughout my coding
             bootcamp experience at the University of Minnesota I have been resilient and I feel
             that I know enough to get me started and I absolutely cannot wait to further my
             knowledge.
-            </p>
+            </h3>
         </div>
     )
 }
