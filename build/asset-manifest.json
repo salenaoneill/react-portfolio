@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.9666f265.js",
+    "static/media/Evenster.png": "/react-portfolio/static/media/Evenster.4a0caf37b28a3ab64c4d.png",
+    "static/media/my-animal-list.png": "/react-portfolio/static/media/my-animal-list.76d8c7831e0d81587d56.png",
+    "static/media/houndr.png": "/react-portfolio/static/media/houndr.201fb815448648bfbd0e.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.c832ae737366a970cf67.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.661d44ee4378c7306b59.png",
+    "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.a3ae0bdbaf63b47f4e99.png",
+    "static/media/Note-Taker.png": "/react-portfolio/static/media/Note-Taker.a0cbe15dff0bbae3f9d2.png",
+    "static/media/portfolio-pic.jpeg": "/react-portfolio/static/media/portfolio-pic.fdc6ce187cb71482bbec.jpeg",
+    "static/media/CodeQuiz.png": "/react-portfolio/static/media/CodeQuiz.9d65024283e0fb71951f.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.9666f265.js.map": "/react-portfolio/static/js/main.9666f265.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9666f265.js"
+  ]
+}
